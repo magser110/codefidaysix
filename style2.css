@@ -1,0 +1,72 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Button Styling */
+  .subscribe-button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Subscribed State */
+  .is-subscribed {
+    background-color: rgb(240, 240, 240);
+    color: black;
+  }
+
+
+  /* Like Button Styling */
+.like-button {
+    border: none;
+    background-color: lightgray;
+    color: black;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .liked {
+    background-color: red;
+    color: white;
+  }
+
+  .notify-button {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    background-color: 0.3s;
+  }
+
+  .enabled {
+    background-color: green;
+  }
+
+  body.light-mode {
+    background-color: white;
+    color: black;
+  }
+
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  .light-button {
+    border: none;
+    padding:  15px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
